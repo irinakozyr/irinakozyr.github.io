@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hr-lines {
+    max-width: 500px;
+    position: relative;
+    text-align:center;
+    margin: 40px auto;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    }
+
+.hr-lines::before{
+    content:" ";
+    display:block;
+    width: 185px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: black;
+    }
+
+.hr-lines::after {
+    content:" ";
+    width: 185px;
+    height: 5px;
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    }
+
+
+
