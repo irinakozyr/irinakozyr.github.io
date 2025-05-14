@@ -130,6 +130,7 @@ address {
 .btn {
     display: inline-block;
     margin-right: 10px ;
+    margin-top: 10px;
     padding: 12px 24px;
     border: 1px solid;
     border-radius: 8px;
