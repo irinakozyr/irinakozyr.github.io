@@ -30,17 +30,19 @@
     border: 2px solid rgb(224, 225, 226);
     border-radius: 50%;
     background-color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
 .slide__left {
+    z-index: 5;
     left: -25px;
     transform: rotate(180deg);
 }
 
 .slide__right{
     right: -27px;
+    z-index: 5;
     /*background-color: rgb(168, 47, 47);*/
 }
 
@@ -49,6 +51,7 @@
     width: 100%;
     min-width: 200px;
     padding: 0 20px;
+    font-size: 0.9rem;
 }
 
 .card:not(:last-child) {
@@ -58,10 +61,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    padding-top: 45px;
-    padding-bottom: 40px;
+    height: 85px;
+    padding-top: 29px;
+    padding-bottom: 20px;
     border-bottom: 2px solid rgb(224, 225, 226);
+    overflow: auto;
     
 }
 
@@ -99,7 +103,8 @@
     width: 100%;
     padding-top: 25px;
     padding-bottom: 20px;
-    /*word-spacing: 0.5em;*/
+    font-size: 0.8rem;
+      
 
 }
  .old-pr{
@@ -108,8 +113,8 @@
 
  .new_pr {
     font-weight:  bolder;
-    /*word-spacing: 0.5em;*/
     font-weight:  bold;
+    margin-right: 5px;
  }
   
 .btn  {
@@ -122,12 +127,13 @@
     text-align: center;
     text-transform: uppercase;
     font-weight:  bold;
-    
-}
+    }
+
 .btn_soon {
   background-color: rgb(245, 31, 131); 
   color: white;
 }
+
 .btn_action {
 cursor: pointer;
 background-color:rgb(247, 247, 29);
@@ -140,15 +146,13 @@ background-color:rgb(247, 247, 29);
     display: flex;
     justify-content: center;
     align-items: center;
-    
     width: 74px;
     height: 74px;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 50%;
     text-align: center;
     font-size: 0.7rem;
-    
-    }
+ }
 
 .stiker__new {
      background-color: rgb(57, 187, 17);
