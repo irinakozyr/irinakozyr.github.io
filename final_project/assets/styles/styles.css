@@ -8,6 +8,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-bg-color: #FAFAFA; 
+    --corporate-color:#7C4EE4;
+    --main-font-body: "Roboto", sans-serif;
+    --main-font-header: "Raleway", sans-serif;
+    --main-text-title-color: #333333;
+    --color-date-text: #999999;
+    --main-text-content-color:#666666;       
+}
+
+
 body {
      font-family: var(--main-font-body);
      background-color: var(--main-bg-color);
