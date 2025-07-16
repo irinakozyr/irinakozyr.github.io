@@ -1,0 +1,265 @@
+
+* Background Images - Practice
+* CSS Styles
+*
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* General */
+body {
+    width: 1296px;
+    height: 1865px;
+    margin: 100px auto;
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+    color: azure;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: rgb(195, 199, 199); 
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    background: linear-gradient(to right,#d80707,rgb(243, 2, 82));
+}
+
+h2 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Open Sans", system-ui;
+    font-weight: 300;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: azure;
+}
+
+
+/* Header */
+
+header  {
+    
+    width: 100%;
+    height: 435px;
+    background: url("/img/bg/bg-01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+#topbar .container {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(58, 57, 57, .5);
+ 
+}
+
+ ul{
+    display: flex;
+    justify-content: flex-start;  
+    margin-left: 150px;    
+ }
+
+li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+nav ul li:hover {
+     background-color: rgb(218, 27, 90);
+}
+
+.container  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px; 
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400; 
+    font-size: 5.5em;
+    text-transform: uppercase;
+      
+}
+#topbar .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px; 
+    margin: 50px auto;
+    
+
+}
+
+                  /* Tour */
+#tour {
+     
+    background:url("/img/bg/bg.png "), rgb(68, 66, 66);
+}
+
+
+h3 {
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.tour-date {
+    font-style:italic;}
+
+.tour-card_madrid  {
+    display: inline-block;
+    width: 200px; 
+    height: 220px;
+    margin-left: 180px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    background:  linear-gradient(to right, rgba(66,56,49,0.5) 0%,rgba(66,56,49,0.5) 100%), url("/img/tour/madrid.jpg");
+    box-shadow: 0 5px 3px 1px #383636;
+    line-height:155%;
+}
+
+.tour-card_turin {
+    display: inline-block;
+    width: 200px; 
+    height: 220px;
+    padding-left: 15px;
+    margin-right: 20px;
+    background:  linear-gradient(to right, rgba(66,56,49,0.5) 0%,rgba(66,56,49,0.5) 100%), url("/img/tour/turin.jpg");
+    box-shadow: 0 5px 3px 1px #383636;
+    line-height:155%;    
+}
+
+.tour-card_hamburg{
+    display: inline-block;
+    width: 200px; 
+    height: 220px;
+    margin-right: 20px;
+    padding-left: 15px;
+    background:  linear-gradient(to right, rgba(66,56,49,0.5) 0%,rgba(66,56,49,0.5) 100%), url("/img/tour/hamburg.jpg");
+    box-shadow: 0 5px 3px 1px #383636;
+    line-height:155%;    
+}
+.tour-card_krakow{
+    display: inline-block;
+    width: 200px; 
+    height: 220px;
+    margin-right: 20px;
+    padding-left: 15px;
+    background:  linear-gradient(to right, rgba(66,56,49,0.5) 0%,rgba(66,56,49,0.5) 100%), url("/img/tour/krakow.jpg");
+    box-shadow: 0 5px 3px 1px #383636;
+    line-height:155%;    
+}
+
+
+#tour .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 35px;
+     margin: 30px auto;
+
+}
+
+/*background:url("/img/bg.png "), linear-gradient(to bottom,  rgb(68, 66, 66) ,rgb(24, 23, 23));*/
+
+/* Gallery */
+
+#gallery {
+     
+    background:url("/img/bg/bg.png "), rgb(68, 66, 66);
+}
+
+#gallery .container{
+    padding-left: 180px;
+    padding-bottom: 30px;
+}
+
+#gallery .container h2{
+    padding-right: 180px;
+}
+
+.photo {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px 1px #222121;
+}
+
+/* Subscribe */
+
+#subscribe {
+    width: 100%;
+    height: 280px;
+    background:  linear-gradient(to right, rgba(37, 33, 31, 0.5) 0%,rgba(37, 33, 31,0.5) 100%),url("/img/bg/bg-02.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pitch p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#subscribe form {
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    width: 125px;
+    height: 36px;
+    text-transform: uppercase;
+    color: azure;
+    background: linear-gradient(to right,#d80707,rgb(245, 24, 97));
+}
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 95px;
+    background:url("/img/bg/bg.png "), rgb(36, 35, 35);
+}
+
+.social {
+    padding-top:  25px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.social a {
+    padding-right: 10px;
+}
+
+.copyright {
+    margin: 18px auto;
+    text-align: center; 
+    font-size: 0.8rem;
+}
